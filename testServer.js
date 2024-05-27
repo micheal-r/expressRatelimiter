@@ -1,5 +1,5 @@
 const express = require('express');
-const RateLimiter = require('expressratelimiter');
+const RateLimiter = require('./index');
 
 const app = express();
 const rateLimiter = new RateLimiter({time: 10, maxRequests: 2});

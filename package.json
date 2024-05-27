@@ -1,0 +1,32 @@
+{
+  "name": "expressratelimiter",
+  "version": "1.0.0",
+  "description": "An express.js ratelimit package that allows you to easily add IP based ratelimits to your express API / Website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micheal-r/expressRatelimiter.git"
+  },
+  "keywords": [
+    "Express",
+    "Express.js",
+    "Ratelimit",
+    "API",
+    "Webserver"
+  ],
+  "author": "micheal-r",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/micheal-r/expressRatelimiter/issues"
+  },
+  "homepage": "https://github.com/micheal-r/expressRatelimiter#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
